@@ -1,0 +1,29 @@
+.contact {
+    padding: 50px;
+    background-color: #FFFFFF; /* White color */
+    color: #000000;
+    font-family: 'Times New Roman', serif; 
+    width: 65%;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.contact form {
+    margin-top: 30px;
+}
+
+.contact input[type=text], .contact input[type=email], .contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.contact input[type=submit] {
+    background-color: #000000; /* Dark blue */
+    color: #ffffff; /* Golden color */
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}

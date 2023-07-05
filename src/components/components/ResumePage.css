@@ -1,0 +1,128 @@
+.resume-page {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11;
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    /* add a thin black line  */
+    
+  }
+
+.description{
+    /* get rid of any spaces between lines of text*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    row-gap: 0em;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    row-gap: 0em;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    row-gap: 0em;
+}
+
+.description p{
+    margin: 5px;
+    padding: 0;
+    row-gap: 0em;
+}
+  .across{
+    /* make things go on opposite sides of the same line */
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .resume{
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  
+  h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 1.5em;
+  }
+
+  /* ... other styles ... */
+
+#name{
+    text-align: center;
+    margin: auto;
+}
+
+
+.contact-info{
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .4em;
+    /* add left and right padding */
+    padding: 0 20px;
+  }
+  
+  .header-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .download-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .download-btn img {
+    height: 1.5em;
+  }
+  
+  
+  .contact-info {
+    font-size: 0.9em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .experience, section > div {
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+
+
+/* Mobile styles */
+@media screen and (max-width: 600px) {
+    .resume-page {
+      width: 80%; /* take up the whole screen width */
+    }
+    .resume{
+        border: none; /* remove border */
+    }
+    .header-title {
+      font-size: 1em;
+    }
+    .resume h1{
+        font-size: 1.5em;
+    }
+  }

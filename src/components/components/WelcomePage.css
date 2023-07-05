@@ -1,0 +1,23 @@
+.welcome {
+    padding: 50px;
+    background-color: #ffffff; /* Dark blue */
+    color: #060401; /* Golden color */
+    font-family: 'Times New Roman', serif; 
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    /* align things in the center */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align all text ot the left */
+    text-align: left;
+
+    /* add a border and a curved */
+    border: 1px solid #060401;
+    border-radius: 15px;
+
+
+}
+
+

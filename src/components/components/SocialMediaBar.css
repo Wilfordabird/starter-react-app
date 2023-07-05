@@ -1,0 +1,16 @@
+.social-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .social {
+    margin: 0 10px;
+    color: black; /* Black color */
+    transition: color 0.3s ease;
+  }
+  
+  .social:hover {
+    color: #DAA520; /* Golden color */
+  }
+  
