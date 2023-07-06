@@ -6,6 +6,7 @@ import ResumePage from './components/ResumePage';
 import ContactPage from './components/ContactPage';
 import NavBar from './components/NavBar';
 
+
 function App() {
   return (
     <Router>
