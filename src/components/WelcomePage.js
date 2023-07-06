@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './WelcomePage.css'; // Importing our custom Ivy League styled CSS
 import SocialMediaBar from './SocialMediaBar';
-import selfphoto from './me.jpg'
+import selfphoto from './img0.jpg'
 import img1 from './img1.JPEG'
 import img2 from './img2.jpg'
 import img3 from './img3.jpeg'
